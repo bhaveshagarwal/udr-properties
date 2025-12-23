@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent Plots 31 & 32 Near Villa INN Udaipur | Dheekli | UIT Approved | ₹2250/sqft</title>
+    <meta name="description" content="Premium adjacent 1050 sqft plots near Villa INN Udaipur in Dheekli. East facing, UIT approved, green belt area with high appreciation potential. Direct owner sale at ₹23.63 lakhs each.">
+    <meta name="keywords" content="Dheekli plots near Villa INN, adjacent plots Udaipur, 1050 sqft plot, UIT approved Dheekli, east facing plot Udaipur">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 15px 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .back-btn {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .property-header {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        
+        .property-id {
+            display: inline-block;
+            background: #1e3c72;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            margin-right: 5px;
+        }
+        
+        .property-title {
+            font-size: 24px;
+            color: #1e3c72;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .property-location {
+            color: #666;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .plots-comparison {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .plot-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+            border: 2px solid #e0e0e0;
+        }
+        
+        .plot-card h3 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+        }
+        
+        .price-section {
+            background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .price-main {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .price-details {
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+        
+        .price-guarantee {
+            background: rgba(255,255,255,0.2);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .detail-row:last-child {
+            border-bottom: none;
+        }
+        
+        .detail-label {
+            font-weight: 600;
+            color: #555;
+        }
+        
+        .detail-value {
+            color: #333;
+            text-align: right;
+        }
+        
+        .usp-section {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .usp-section h4 {
+            color: #1565c0;
+            margin-bottom: 10px;
+        }
+        
+        .gallery {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+        }
+        
+        .gallery h3 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+        }
+        
+        .photo-placeholder {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 250px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        
+        .map-section {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+        }
+        
+        .map-section h3 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+        }
+        
+        .map-container {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+        
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        
+        .map-links {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #1e3c72;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: background 0.3s ease;
+            text-align: center;
+        }
+        
+        .btn:hover {
+            background: #2a5298;
+        }
+        
+        .btn-whatsapp {
+            background: #25D366;
+            font-size: 16px;
+        }
+        
+        .btn-whatsapp:hover {
+            background: #20ba5a;
+        }
+        
+        .btn-full {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        
+        .contact-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .contact-section h3 {
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+        
+        .detail-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+            margin-bottom: 20px;
+        }
+        
+        .detail-card h3 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+        }
+        
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        
+        .landmark-badge {
+            background: #ff9800;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 10px 0;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        @media (min-width: 768px) {
+            .plots-comparison {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .map-container {
+                height: 450px;
+            }
+            
+            .property-title {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <a href="index.html" class="back-btn">← Back to All Properties</a>
+            <span style="font-size: 14px;">Direct Owner | No Broker</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="property-header">
+            <div>
+                <span class="property-id">ID: UDR-DHK-031</span>
+                <span class="property-id">ID: UDR-DHK-032</span>
+            </div>
+            <h1 class="property-title">Adjacent Plots 31 & 32 - Near Villa INN Udaipur</h1>
+            <p class="property-location">📍 Dheekli, Wada Area, Udaipur, Rajasthan</p>
+            <div class="landmark-badge">🏨 Villa INN Udaipur - Just 50 Metres Away!</div>
+        </div>
+
+        <div class="usp-section">
+            <h4>🏖️ Premium Location with Established Landmark Nearby</h4>
+            <p>✓ <strong>Villa INN Udaipur at just 50 metres - clearly visible from plots!</strong><br>
+            ✓ Both plots are identical in size - perfect for twin houses or investment<br>
+            ✓ Lush green belt area with abundant natural surroundings<br>
+            ✓ One of the most upcoming colonies in the area<br>
+            ✓ Fully developed neighborhoods nearby<br>
+            ✓ <strong>Expected to appreciate significantly within 1-2 years</strong><br>
+            ✓ Peaceful residential environment with easy access to amenities</p>
+        </div>
+
+        <div class="plots-comparison">
+            <div class="plot-card">
+                <h3>Plot 31</h3>
+                <div class="detail-row">
+                    <span class="detail-label">Property ID</span>
+                    <span class="detail-value">UDR-DHK-031</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Plot Area</span>
+                    <span class="detail-value">1,050 sq ft</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Dimensions</span>
+                    <span class="detail-value">50 ft × 21 ft</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Facing</span>
+                    <span class="detail-value">East</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Price</span>
+                    <span class="detail-value"><strong>₹23.63 Lakhs</strong></span>
+                </div>
+            </div>
+
+            <div class="plot-card">
+                <h3>Plot 32</h3>
+                <div class="detail-row">
+                    <span class="detail-label">Property ID</span>
+                    <span class="detail-value">UDR-DHK-032</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Plot Area</span>
+                    <span class="detail-value">1,050 sq ft</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Dimensions</span>
+                    <span class="detail-value">50 ft × 21 ft</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Facing</span>
+                    <span class="detail-value">East</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Price</span>
+                    <span class="detail-value"><strong>₹23.63 Lakhs</strong></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="price-section">
+            <div class="price-main">₹2,250 per sq ft</div>
+            <div class="price-details">₹23.63 Lakhs per plot (1,050 sq ft each)</div>
+            <div class="price-details"><strong>Buy Both: ₹47.25 Lakhs</strong> (Perfect for twin houses or family investment)</div>
+            <div class="price-guarantee">
+                <strong>💎 BEST PRICE GUARANTEE</strong><br>
+                This is our final price with NO negotiation scope. We've already discounted by ₹100/sqft from current market rates. The proximity to Villa INN Udaipur (a well-known landmark) adds significant value. The green belt location and upcoming development make these plots excellent investment opportunities. Feel free to verify with local brokers - our pricing is transparent and competitive!
+            </div>
+        </div>
+
+        <div class="detail-card">
+            <h3>📋 Common Specifications (Both Plots)</h3>
+            <div class="detail-row">
+                <span class="detail-label">Plot Area (Each)</span>
+                <span class="detail-value">1,050 sq ft</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Dimensions (Each)</span>
+                <span class="detail-value">50 ft × 21 ft</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Plot Facing</span>
+                <span class="detail-value">East (Morning Sun)</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Approval Status</span>
+                <span class="detail-value">✓ UIT Approved</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Title Status</span>
+                <span class="detail-value">✓ Clear Title</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Registration</span>
+                <span class="detail-value">✓ Ready for Immediate Registration</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Construction</span>
+                <span class="detail-value">✓ Can Start Immediately</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Property Type</span>
+                <span class="detail-value">Residential</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Location Type</span>
+                <span class="detail-value">Green Belt / Nature Area</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Nearby Landmark</span>
+                <span class="detail-value">Villa INN Udaipur (50m)</span>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <h3>📸 Property Photos</h3>
+            <div class="photo-placeholder">
+                Plot 31 & 32 - Main View (To be uploaded)
+            </div>
+            <div class="photo-placeholder">
+                Villa INN Udaipur - Visible from Plot (To be uploaded)
+            </div>
+            <div class="photo-placeholder">
+                Area Photos - Green Belt Surroundings (To be uploaded)
+            </div>
+            <div class="photo-placeholder">
+                Site Plan (To be uploaded)
+            </div>
+            <p style="color: #666; font-size: 14px; text-align: center;">Photos will be added soon. Villa INN Udaipur is clearly visible in actual plot photos. Contact owner for current photos via WhatsApp.</p>
+        </div>
+
+        <div class="map-section">
+            <h3>📍 Location & Map</h3>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.456!2d73.738!3d24.598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDM1JzUyLjgiTiA3M8KwNDQnMTYuOCJF!5e0!3m2!1sen!2sin!4v1734961000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="map-links">
+                <a href="https://maps.app.goo.gl/P8RMBZgDrZfE3YxF9" target="_blank" class="btn">🗺️ Open in Google Maps</a>
+                <a href="https://maps.app.goo.gl/P8RMBZgDrZfE3YxF9" target="_blank" class="btn">🧭 Get Directions</a>
+            </div>
+            <p style="margin-top: 15px; color: #666; font-size: 14px;">
+                <strong>Landmark:</strong> Villa INN Udaipur is just 50 metres from these plots and is clearly visible. This established landmark adds significant value and makes the location easy to find.<br>
+                <strong>Area Character:</strong> Peaceful green belt area with natural surroundings, yet well-connected to main roads and city amenities.
+            </p>
+        </div>
+
+        <div class="detail-card">
+            <h3>🏡 Perfect For</h3>
+            <p style="color: #555; line-height: 1.8;">
+                <strong>• Twin Houses:</strong> Build two identical houses side-by-side for extended family<br>
+                <strong>• Investment:</strong> Hold one, sell one - or develop both for rental income<br>
+                <strong>• Single Large Home:</strong> Combine both plots for a spacious 2,100 sqft property<br>
+                <strong>• Retirement Home:</strong> Peaceful green location away from city chaos<br>
+                <strong>• Vacation Home:</strong> Proximity to Villa INN indicates good tourism potential
+            </p>
+        </div>
+
+        <div class="detail-card">
+            <h3>💼 Reason for Selling</h3>
+            <p style="color: #555; line-height: 1.8;">I'm liquidating some of my real estate assets to raise funds for personal financial requirements and business expansion opportunities. These plots are in an excellent location with Villa INN nearby, offering both convenience and appreciation potential. This is a genuine sale by the direct owner - no brokers, no hidden charges, no complications. The pricing is fair and transparent, making this an excellent opportunity for serious buyers and investors.</p>
+        </div>
+
+        <div class="contact-section">
+            <h3>📞 Interested? Contact Owner Directly</h3>
+            <p style="margin-bottom: 20px;">For site visits, documentation, price verification, or any queries - reach out on WhatsApp</p>
+            <a href="https://wa.me/919845246049?text=Hi,%20I'm%20interested%20in%20Plot%2031%20(UDR-DHK-031)%20near%20Villa%20INN,%20Dheekli.%20Please%20share%20more%20details." class="btn btn-whatsapp btn-full">💬 Inquire about Plot 31 (1050 sqft)</a>
+            <a href="https://wa.me/919845246049?text=Hi,%20I'm%20interested%20in%20Plot%2032%20(UDR-DHK-032)%20near%20Villa%20INN,%20Dheekli.%20Please%20share%20more%20details." class="btn btn-whatsapp btn-full">💬 Inquire about Plot 32 (1050 sqft)</a>
+            <a href="https://wa.me/919845246049?text=Hi,%20I'm%20interested%20in%20BOTH%20adjacent%20plots%2031%20%26%2032%20near%20Villa%20INN,%20Dheekli.%20Please%20share%20more%20details." class="btn btn-whatsapp btn-full">💬 Inquire about BOTH Plots</a>
+            <p style="margin-top: 15px; font-size: 14px; opacity: 0.9;">WhatsApp: +91 98452 46049</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Udaipur Premium Plots | Direct Owner Sales</p>
+        <p style="font-size: 12px; margin-top: 10px;"><a href="index.html" style="color: white;">← View All Properties</a></p>
+    </div>
+</body>
+</html>

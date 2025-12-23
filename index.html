@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+
+      // Google Ads Remarketing Tag
+      gtag('config', 'AW-XXXXXXXXXX');
+    </script>
+    <!-- End Google Analytics 4 -->
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 'YOUR_PIXEL_ID_HERE');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID_HERE&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium UIT Approved Plots in Udaipur | Direct Owner Sale</title>
-    <meta name="description" content="Buy premium residential plots in Udaipur directly from owner. UIT approved, clear title, prime locations in Balicha and Dheekli. No brokers, best prices.">
-    <meta name="keywords" content="Udaipur plots, residential plots Udaipur, UIT approved plots, Balicha plots, Dheekli plots, plots for sale Udaipur, direct owner property">
+    <title>UIT Approved Plots for Sale in Udaipur - Direct Owner | Balicha & Dheekli</title>
+    <meta name="description" content="Buy UIT approved residential plots in Udaipur directly from owner. Prime locations in Balicha & Dheekli. Clear title, ready for registration. No brokers. Starting ₹23.63 lakhs.">
+    <meta name="keywords" content="plots for sale in Udaipur, UIT approved plots Udaipur, residential plots Udaipur direct owner, Balicha plots for sale, Dheekli plots Udaipur, buy plot in Udaipur, land for sale Udaipur, property in Udaipur, Udaipur real estate, plots near Parth Public School, plots near Villa INN Udaipur">
 
     <!-- Open Graph / WhatsApp Preview -->
     <meta property="og:type" content="website">
@@ -239,7 +278,95 @@
             padding: 20px;
             margin-top: 40px;
         }
-        
+
+        /* Lead Capture Form Styles */
+        .lead-form-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 40px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .lead-form-section h3 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .lead-form-section p {
+            margin-bottom: 20px;
+            opacity: 0.95;
+        }
+
+        .lead-form {
+            display: grid;
+            gap: 15px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group label {
+            margin-bottom: 5px;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .form-group input,
+        .form-group select {
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-family: inherit;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: 2px solid #ffd700;
+        }
+
+        .btn-submit {
+            background: #ffd700;
+            color: #333;
+            padding: 14px 30px;
+            border: none;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+
+        .btn-submit:hover {
+            background: #ffed4e;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .form-success {
+            display: none;
+            background: #10b981;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        @media (min-width: 768px) {
+            .lead-form {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .form-group.full-width {
+                grid-column: 1 / -1;
+            }
+        }
+
         @media (min-width: 768px) {
             .header h1 {
                 font-size: 32px;
@@ -264,6 +391,11 @@
     </style>
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <div class="header">
         <h1>🏡 Premium Residential Plots for Sale in Udaipur</h1>
         <p class="tagline">DIRECT OWNER | NO BROKER | UIT APPROVED</p>
@@ -370,6 +502,53 @@
             </div>
         </div>
 
+        <!-- Lead Capture Form -->
+        <!--
+        <div class="lead-form-section">
+            <h3>🎯 Get Property Details & Site Visit</h3>
+            <p>Fill the form below and we'll contact you within 24 hours with complete details, pricing, and schedule a site visit.</p>
+
+            <form class="lead-form" id="leadForm" onsubmit="return handleFormSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210" pattern="[0-9+\s\-()]{10,15}">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="property">Preferred Plot *</label>
+                    <select id="property" name="property" required>
+                        <option value="">-- Select Plot --</option>
+                        <option value="Balicha - 1920 sqft">Balicha - 1920 sqft (₹61.44 Lakhs)</option>
+                        <option value="Dheekli Plot 15 - 1425 sqft">Dheekli Plot 15 - 1425 sqft (₹32.06 Lakhs)</option>
+                        <option value="Dheekli Plot 16 - 1375 sqft Corner">Dheekli Plot 16 - 1375 sqft Corner (₹30.94 Lakhs)</option>
+                        <option value="Dheekli Plot 31 - 1050 sqft">Dheekli Plot 31 - 1050 sqft (₹23.63 Lakhs)</option>
+                        <option value="Dheekli Plot 32 - 1050 sqft">Dheekli Plot 32 - 1050 sqft (₹23.63 Lakhs)</option>
+                        <option value="Multiple Plots">Interested in Multiple Plots</option>
+                        <option value="Just Exploring">Just Exploring Options</option>
+                    </select>
+                </div>
+
+                <div class="form-group full-width">
+                    <button type="submit" class="btn-submit">📩 Submit & Get Details</button>
+                </div>
+            </form>
+
+            <div class="form-success" id="formSuccess">
+                ✅ Thank you! We'll contact you within 24 hours with complete details.
+            </div>
+        </div>
+        -->
+
         <div class="highlight" style="margin-top: 40px;">
             <h3>📞 Ready to Invest?</h3>
             <p style="margin-bottom: 15px;">Contact the owner directly via WhatsApp or Call for site visits, documentation, and queries.</p>
@@ -382,5 +561,67 @@
         <p>&copy; 2026 Udaipur Premium Plots | Direct Owner Sales</p>
         <p style="font-size: 12px; margin-top: 10px;">All properties are UIT approved with clear titles</p>
     </div>
+
+    <script>
+        function handleFormSubmit(event) {
+            event.preventDefault();
+
+            // Get form data
+            const formData = {
+                name: document.getElementById('name').value,
+                phone: document.getElementById('phone').value,
+                email: document.getElementById('email').value,
+                property: document.getElementById('property').value,
+                timestamp: new Date().toISOString(),
+                source: 'Website Lead Form'
+            };
+
+            // Track conversion in Google Analytics
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'generate_lead', {
+                    'event_category': 'Lead',
+                    'event_label': formData.property,
+                    'value': 1
+                });
+            }
+
+            // Track conversion in Google Tag Manager
+            if (typeof dataLayer !== 'undefined') {
+                dataLayer.push({
+                    'event': 'form_submission',
+                    'formType': 'lead_capture',
+                    'propertyInterest': formData.property
+                });
+            }
+
+            // Send WhatsApp message to owner
+            const message = `🆕 NEW LEAD from Website!\n\n` +
+                          `👤 Name: ${formData.name}\n` +
+                          `📱 Phone: ${formData.phone}\n` +
+                          `📧 Email: ${formData.email || 'Not provided'}\n` +
+                          `🏡 Interested in: ${formData.property}\n` +
+                          `⏰ Time: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}`;
+
+            const whatsappURL = `https://wa.me/919845246049?text=${encodeURIComponent(message)}`;
+
+            // Show success message
+            document.getElementById('leadForm').style.display = 'none';
+            document.getElementById('formSuccess').style.display = 'block';
+
+            // Open WhatsApp (optional - you can remove this if you don't want auto-redirect)
+            setTimeout(() => {
+                window.open(whatsappURL, '_blank');
+            }, 1000);
+
+            // Reset form after 5 seconds
+            setTimeout(() => {
+                document.getElementById('leadForm').reset();
+                document.getElementById('leadForm').style.display = 'grid';
+                document.getElementById('formSuccess').style.display = 'none';
+            }, 5000);
+
+            return false;
+        }
+    </script>
 </body>
 </html>

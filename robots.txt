@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bhaveshagarwal.github.io/udr-properties/sitemap.xml
+

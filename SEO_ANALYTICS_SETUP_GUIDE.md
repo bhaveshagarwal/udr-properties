@@ -9,7 +9,7 @@ All pages now have location-based, intent-driven titles and descriptions:
 - **index.html**: "UIT Approved Plots for Sale in Udaipur - Direct Owner | Balicha & Dheekli"
 - **property-balicha.html**: "1920 sqft Plot for Sale Opposite Parth Public School Balicha Udaipur - ₹61.44 Lakhs"
 - **property-dheekli-1516.html**: "Plots for Sale in Dheekli Udaipur - Adjacent Plots 15 & 16 - ₹32.06 Lakhs"
-- **property-dheekli-3132.html**: "Plots for Sale Near Villa INN Udaipur - 1050 sqft Dheekli - ₹23.63 Lakhs"
+- **property-dheekli-31.html**: "Plot 31 for Sale Near Villa INN Udaipur - 1050 sqft Dheekli - ₹23.63 Lakhs"
 
 #### B. Long-tail Keywords Added
 Each property page targets unique keyword sets:
@@ -172,7 +172,7 @@ All images now have descriptive alt tags like:
 1. ✅ index.html - SEO, form, tracking
 2. ✅ property-balicha.html - SEO, alt tags, tracking
 3. ✅ property-dheekli-1516.html - SEO, alt tags, tracking
-4. ✅ property-dheekli-3132.html - SEO, alt tags, tracking
+4. ✅ property-dheekli-31.html - SEO, alt tags, tracking
 5. ✅ sitemap.xml - NEW
 6. ✅ robots.txt - NEW
 

@@ -6,7 +6,7 @@
 - [ ] index.html
 - [ ] property-balicha.html
 - [ ] property-dheekli-1516.html
-- [ ] property-dheekli-3132.html
+- [ ] property-dheekli-31.html
 
 ---
 

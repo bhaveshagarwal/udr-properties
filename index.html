@@ -43,8 +43,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UIT Approved Plots for Sale in Udaipur - Direct Owner | Balicha & Dheekli</title>
-    <meta name="description" content="Buy UIT approved residential plots in Udaipur directly from owner. Prime locations in Balicha & Dheekli. Clear title, ready for registration. No brokers. Starting ₹23.63 lakhs.">
-    <meta name="keywords" content="plots for sale in Udaipur, UIT approved plots Udaipur, residential plots Udaipur direct owner, Balicha plots for sale, Dheekli plots Udaipur, buy plot in Udaipur, land for sale Udaipur, property in Udaipur, Udaipur real estate, plots near Parth Public School, plots near Villa INN Udaipur">
+    <meta name="description" content="Buy UIT approved residential plots in Udaipur directly from owner. Prime locations in Balicha & Dheekli. Clear title, ready for registration. No brokers. Starting ₹30.94 lakhs.">
+    <meta name="keywords" content="plots for sale in Udaipur, UIT approved plots Udaipur, residential plots Udaipur direct owner, Balicha plots for sale, Dheekli plots Udaipur, buy plot in Udaipur, land for sale Udaipur, property in Udaipur, Udaipur real estate, plots near Parth Public School, adjacent plots Dheekli">
 
     <!-- Open Graph / WhatsApp Preview -->
     <meta property="og:type" content="website">
@@ -155,9 +155,10 @@
         
         .properties-grid {
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 20px;
             margin-top: 30px;
+            align-items: stretch;
         }
         
         .property-card {
@@ -166,6 +167,8 @@
             overflow: hidden;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
         }
         
         .property-card:hover {
@@ -187,6 +190,9 @@
         
         .property-content {
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
         }
         
         .property-title {
@@ -218,6 +224,10 @@
             grid-template-columns: 1fr 1fr;
             gap: 10px;
             margin: 15px 0;
+        }
+
+        .properties-grid .btn-full {
+            margin-top: auto;
         }
         
         .detail-item {
@@ -376,10 +386,6 @@
                 font-size: 16px;
             }
             
-            .properties-grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-            
             .property-image {
                 height: 250px;
             }
@@ -455,7 +461,7 @@
                 <div class="property-content">
                     <div class="property-title">Adjacent Plots 15 & 16</div>
                     <div class="property-location">Dheekli, Wada Area, Udaipur</div>
-                    <div class="property-price">₹2,250/sqft | From ₹32.06 Lakhs</div>
+                    <div class="property-price">₹2,250/sqft | From ₹30.94 Lakhs</div>
                     <div class="property-details">
                         <div class="detail-item">
                             <span class="detail-label">ID:</span> UDR-DHK-015/016
@@ -472,32 +478,6 @@
                     </div>
                     <p style="font-size: 13px; color: #666; margin: 10px 0;"><strong>USP:</strong> Adjacent plots in green belt area, high appreciation potential, combo deal available!</p>
                     <a href="property-dheekli-1516.html" class="btn btn-full">View Full Details →</a>
-                </div>
-            </div>
-
-            <!-- Property 3: Dheekli Plot 31 -->
-            <div class="property-card">
-                <div class="property-image">🏖️ Before Dheekli, Near Villa INN</div>
-                <div class="property-content">
-                    <div class="property-title">Plot 31</div>
-                    <div class="property-location">Dheekli, Wada Area, Udaipur</div>
-                    <div class="property-price">₹2,250/sqft | ₹23.63 Lakhs</div>
-                    <div class="property-details">
-                        <div class="detail-item">
-                            <span class="detail-label">ID:</span> UDR-DHK-031
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Area:</span> 1,050 sqft
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Size:</span> 50' × 21'
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Facing:</span> East
-                        </div>
-                    </div>
-                    <p style="font-size: 13px; color: #666; margin: 10px 0;"><strong>USP:</strong> Villa INN Udaipur at 50m, premium green belt, upcoming high-growth area</p>
-                    <a href="property-dheekli-31.html" class="btn btn-full">View Full Details →</a>
                 </div>
             </div>
         </div>
@@ -532,7 +512,6 @@
                         <option value="Dheekli Plot 15 - 1425 sqft">Dheekli Plot 15 - 1425 sqft (₹32.06 Lakhs)</option>
                         <option value="Dheekli Plot 16 - 1375 sqft">Dheekli Plot 16 - 1375 sqft (₹30.94 Lakhs)</option>
                         <option value="Dheekli Plots 15 & 16 - Combo Deal">Dheekli Plots 15 & 16 - Combo Deal (₹62.30 Lakhs)</option>
-                        <option value="Dheekli Plot 31 - 1050 sqft">Dheekli Plot 31 - 1050 sqft (₹23.63 Lakhs)</option>
                         <option value="Multiple Plots">Interested in Multiple Plots</option>
                         <option value="Just Exploring">Just Exploring Options</option>
                     </select>

@@ -6,7 +6,6 @@
 - [ ] index.html
 - [ ] property-balicha.html
 - [ ] property-dheekli-1516.html
-- [ ] property-dheekli-31.html
 
 ---
 
@@ -136,4 +135,3 @@ Your website now has:
 ---
 
 **Need help? Have questions? Just ask!**
-

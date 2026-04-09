@@ -8,14 +8,12 @@
 All pages now have location-based, intent-driven titles and descriptions:
 - **index.html**: "UIT Approved Plots for Sale in Udaipur - Direct Owner | Balicha & Dheekli"
 - **property-balicha.html**: "1920 sqft Plot for Sale Opposite Parth Public School Balicha Udaipur - ₹61.44 Lakhs"
-- **property-dheekli-1516.html**: "Plots for Sale in Dheekli Udaipur - Adjacent Plots 15 & 16 - ₹32.06 Lakhs"
-- **property-dheekli-31.html**: "Plot 31 for Sale Near Villa INN Udaipur - 1050 sqft Dheekli - ₹23.63 Lakhs"
+- **property-dheekli-1516.html**: "Adjacent Plots 15 & 16 for Sale in Dheekli Udaipur - From ₹30.94 Lakhs"
 
 #### B. Long-tail Keywords Added
 Each property page targets unique keyword sets:
 - Balicha: "plot opposite Parth Public School", "south facing plot Balicha", "30ft road plot Udaipur"
 - Dheekli 15-16: "plot Dheekli", "green belt plots Udaipur", "adjacent plots Udaipur"
-- Dheekli 31-32: "plots near Villa INN", "affordable plots Udaipur", "1050 sqft plot"
 
 #### C. SEO-Optimized Image Alt Tags
 All images now have descriptive alt tags like:
@@ -172,9 +170,8 @@ All images now have descriptive alt tags like:
 1. ✅ index.html - SEO, form, tracking
 2. ✅ property-balicha.html - SEO, alt tags, tracking
 3. ✅ property-dheekli-1516.html - SEO, alt tags, tracking
-4. ✅ property-dheekli-31.html - SEO, alt tags, tracking
-5. ✅ sitemap.xml - NEW
-6. ✅ robots.txt - NEW
+4. ✅ sitemap.xml - NEW
+5. ✅ robots.txt - NEW
 
 ---
 
@@ -189,4 +186,3 @@ Search for these in ALL HTML files and replace:
 ---
 
 **Questions? Need help with setup? Let me know!**
-

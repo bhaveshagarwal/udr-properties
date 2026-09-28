@@ -121,12 +121,13 @@
             .map-frame { height: 320px; }
         }
     </style>
+    <link rel="stylesheet" href="property-ui.css">
 </head>
-<body>
+<body class="property-page">
     <header class="site-header"><div class="site-header-inner"><a href="index.html">← All Properties</a><span>Direct Owner | No Broker</span></div></header>
     <main>
         <section class="hero" aria-labelledby="property-title">
-            <img class="hero-photo" src="images/plot38-photo.jpg" alt="Plot 38 in Wada, Udaipur, with its yellow number marker and the bypass road beyond" width="1600" height="1200" fetchpriority="high">
+            <a class="hero-media" href="images/plot38-photo.jpg" data-gallery data-caption="Plot 38 — the yellow number marker identifies the plot, with the bypass road beyond." aria-label="Enlarge Plot 38 photo"><img class="hero-photo" src="images/plot38-photo.jpg" alt="Plot 38 in Wada, Udaipur, with its yellow number marker and the bypass road beyond" width="1600" height="1200" fetchpriority="high"></a>
             <div class="hero-content">
                 <span class="eyebrow">UDR-WAD-038 · RESIDENTIAL</span>
                 <h1 id="property-title">Plot 38 for Sale in Wada, Dheekli</h1>
@@ -178,11 +179,11 @@
             <h2 id="plans-title">📐 Site Plan &amp; Layout Map</h2>
             <div class="plans">
                 <div class="plan">
-                    <a href="images/plot38-site-plan.png" target="_blank" rel="noopener noreferrer"><img src="images/plot38-site-plan.png" alt="UIT site plan for Plot 38 showing 21 by 50 ft dimensions, 1,050 sq ft area, and 30 ft road" loading="lazy" width="1272" height="1800"></a>
+                    <a class="media-open" href="images/plot38-site-plan.png" data-gallery data-caption="Plot 38 site plan — 21 × 50 ft, 1,050 sq ft, with a 30 ft access road." aria-label="Enlarge Plot 38 site plan"><img src="images/plot38-site-plan.png" alt="UIT site plan for Plot 38 showing 21 by 50 ft dimensions, 1,050 sq ft area, and 30 ft road" loading="lazy" width="1272" height="1800"></a>
                     <div class="plan-content"><h3>Plot 38 Site Plan</h3><p>Individual plot plan with dimensions and road frontage.</p><a href="documents/plot38-site-plan.pdf" download>Download site plan PDF</a></div>
                 </div>
                 <div class="plan">
-                    <a href="images/plot38-layout-map.png" target="_blank" rel="noopener noreferrer"><img src="images/plot38-layout-map.png" alt="UIT Wada residential township layout map with the bypass highway and internal roads" loading="lazy" width="1800" height="1272"></a>
+                    <a class="media-open" href="images/plot38-layout-map.png" data-gallery data-caption="Wada township layout — internal roads and the adjacent Udaipur Bypass Road." aria-label="Enlarge Wada layout map"><img src="images/plot38-layout-map.png" alt="UIT Wada residential township layout map with the bypass highway and internal roads" loading="lazy" width="1800" height="1272"></a>
                     <div class="plan-content"><h3>Wada Layout Map</h3><p>Approved township layout and its relationship to the bypass road.</p><a href="documents/plot38-layout-map.pdf" download>Download layout map PDF</a></div>
                 </div>
             </div>
@@ -206,5 +207,17 @@
         </section>
     </main>
     <footer>© 2026 Udaipur Premium Plots | Direct Owner Sales · <a href="index.html">View All Properties</a></footer>
+    <nav class="mobile-actions" aria-label="Contact owner">
+        <a href="https://wa.me/919845246049?text=Hi%2C%20I%27m%20interested%20in%20Plot%2038%20%28UDR-WAD-038%29%20at%20Wada%2FDheekli.%20Website%3A%20https%3A%2F%2Fbhaveshagarwal.github.io%2Fudr-properties%2Fproperty-dheekli-plot38.html" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a href="tel:+919845246049">Call owner</a>
+    </nav>
+    <dialog class="media-dialog" id="media-dialog" aria-label="Property photo and plan viewer">
+        <div class="media-dialog-inner">
+            <div class="media-dialog-toolbar"><span data-dialog-counter></span><button type="button" data-dialog-close aria-label="Close image viewer">✕</button></div>
+            <div class="media-dialog-image-wrap"><img data-dialog-image alt=""></div>
+            <div class="media-dialog-bottom"><p class="media-dialog-caption" data-dialog-caption></p><div class="media-dialog-nav"><button type="button" data-dialog-previous aria-label="Previous image">←</button><button type="button" data-dialog-next aria-label="Next image">→</button></div></div>
+        </div>
+    </dialog>
+    <script src="property-gallery.js" defer></script>
 </body>
 </html>

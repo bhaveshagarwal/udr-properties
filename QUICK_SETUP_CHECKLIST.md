@@ -1,11 +1,12 @@
 # ⚡ Quick Setup Checklist
 
-## 🎯 Replace These IDs in ALL HTML Files
+## 🎯 Replace Placeholder IDs Where Present
 
 ### Files to Update:
 - [ ] index.html
 - [ ] property-balicha.html
-- [ ] property-dheekli-1516.html
+
+The Plot 38 page currently has no analytics tags. Add your configured tags there separately if you want tracking on that listing.
 
 ---
 
@@ -69,7 +70,7 @@
 
 ### Using VS Code or any text editor:
 
-1. **Open all HTML files**
+1. **Open the HTML files listed above**
 2. **Press Ctrl+Shift+F** (or Cmd+Shift+F on Mac)
 3. **Search for:** `GTM-XXXXXXX`
 4. **Replace all with:** Your actual GTM ID

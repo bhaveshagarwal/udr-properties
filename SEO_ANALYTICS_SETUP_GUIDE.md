@@ -8,18 +8,18 @@
 All pages now have location-based, intent-driven titles and descriptions:
 - **index.html**: "UIT Approved Plots for Sale in Udaipur - Direct Owner | Balicha & Dheekli"
 - **property-balicha.html**: "1920 sqft Plot for Sale Opposite Parth Public School Balicha Udaipur - ₹75.84 Lakhs"
-- **property-dheekli-1516.html**: "Adjacent Plots 15 & 16 for Sale in Dheekli Udaipur - From ₹30.94 Lakhs"
+- **property-dheekli-plot38.html**: "Plot 38 for Sale in Wada, Dheekli, Udaipur | 1,050 sq ft"
 
 #### B. Long-tail Keywords Added
 Each property page targets unique keyword sets:
 - Balicha: "plot opposite Parth Public School", "south facing plot Balicha", "30ft road plot Udaipur"
-- Dheekli 15-16: "plot Dheekli", "green belt plots Udaipur", "adjacent plots Udaipur"
+- Wada Plot 38: "plot Dheekli", "Wada plot Udaipur", "Udaipur Bypass Road plot"
 
 #### C. SEO-Optimized Image Alt Tags
 All images now have descriptive alt tags like:
 - "1920 sqft UIT approved plot opposite Parth Public School Balicha Udaipur"
-- "plot 16 Dheekli Udaipur site plan"
-- "Green belt area plot for sale in Dheekli Udaipur"
+- "Plot 38 site plan in Wada Udaipur"
+- "Plot 38 beside Udaipur Bypass Road"
 
 #### D. XML Sitemap & Robots.txt Created
 - **sitemap.xml**: Lists all pages for Google Search Console
@@ -76,14 +76,14 @@ All images now have descriptive alt tags like:
 4. Select "Web" platform
 5. Enter website URL: `https://bhaveshagarwal.github.io/udr-properties/`
 6. Copy your **Measurement ID** (starts with `G-`)
-7. Replace `G-XXXXXXXXXX` in ALL HTML files with your actual ID
+7. Replace `G-XXXXXXXXXX` in pages that contain this placeholder with your actual ID
 
 ### Step 2: Create Google Tag Manager Account
 1. Go to https://tagmanager.google.com/
 2. Create Account → Container name: "UDR Properties"
 3. Select "Web" platform
 4. Copy your **Container ID** (starts with `GTM-`)
-5. Replace `GTM-XXXXXXX` in ALL HTML files with your actual ID
+5. Replace `GTM-XXXXXXX` in pages that contain this placeholder with your actual ID
 
 ### Step 3: Create Google Ads Account (for Remarketing)
 1. Go to https://ads.google.com/
@@ -91,7 +91,7 @@ All images now have descriptive alt tags like:
 3. Go to Tools → Audience Manager → Audience Sources
 4. Set up Google Ads tag
 5. Copy your **Conversion ID** (starts with `AW-`)
-6. Replace `AW-XXXXXXXXXX` in ALL HTML files
+6. Replace `AW-XXXXXXXXXX` in pages that contain this placeholder
 
 ### Step 4: Create Meta Pixel (Facebook/Instagram Ads)
 1. Go to https://business.facebook.com/
@@ -99,7 +99,7 @@ All images now have descriptive alt tags like:
 3. Click "Add" → Create a Pixel
 4. Name it "UDR Properties Pixel"
 5. Copy your **Pixel ID** (16-digit number)
-6. Replace `YOUR_PIXEL_ID_HERE` in ALL HTML files
+6. Replace `YOUR_PIXEL_ID_HERE` in pages that contain this placeholder
 
 ### Step 5: Submit Sitemap to Google Search Console
 1. Go to https://search.google.com/search-console
@@ -169,7 +169,7 @@ All images now have descriptive alt tags like:
 
 1. ✅ index.html - SEO, form, tracking
 2. ✅ property-balicha.html - SEO, alt tags, tracking
-3. ✅ property-dheekli-1516.html - SEO, alt tags, tracking
+3. ✅ property-dheekli-plot38.html - SEO and alt tags
 4. ✅ sitemap.xml - NEW
 5. ✅ robots.txt - NEW
 
@@ -177,7 +177,7 @@ All images now have descriptive alt tags like:
 
 ## 🚨 IMPORTANT: Replace Placeholder IDs
 
-Search for these in ALL HTML files and replace:
+Search for these in the HTML files where they appear and replace:
 - `GTM-XXXXXXX` → Your GTM ID
 - `G-XXXXXXXXXX` → Your GA4 ID
 - `AW-XXXXXXXXXX` → Your Google Ads ID

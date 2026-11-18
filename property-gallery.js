@@ -1,5 +1,6 @@
 (() => {
-  const links = [...document.querySelectorAll('[data-gallery]')];
+  const allLinks = [...document.querySelectorAll('[data-gallery]')];
+  const links = [...new Map(allLinks.map(link => [link.href, link])).values()];
   const dialog = document.querySelector('#media-dialog');
   if (!links.length || !dialog || typeof dialog.showModal !== 'function') return;
 
@@ -21,7 +22,8 @@
     counter.textContent = `${current + 1} of ${links.length}`;
   }
 
-  links.forEach((link, index) => {
+  allLinks.forEach(link => {
+    const index = links.findIndex(item => item.href === link.href);
     link.addEventListener('click', (event) => {
       event.preventDefault();
       opener = link;
